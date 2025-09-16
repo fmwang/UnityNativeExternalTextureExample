@@ -1,0 +1,23 @@
+# Android构建输出目录
+AndroidOutput/
+
+# Unity项目忽略规则
+NativeTextureUnity/Library/
+NativeTextureUnity/Temp/
+NativeTextureUnity/Logs/
+NativeTextureUnity/obj/
+NativeTextureUnity/UserSettings/
+NativeTextureUnity/*.sln
+NativeTextureUnity/*.csproj
+NativeTextureUnity/.vs/
+
+# 其他常见的忽略规则
+*.swp
+*.swo
+*~\n.DS_Store
+Thumbs.db
+
+# 包管理器缓存
+NativeTextureUnity/Packages/*
+!NativeTextureUnity/Packages/manifest.json
+!NativeTextureUnity/Packages/packages-lock.json
